@@ -1,6 +1,6 @@
-#include "ArraySequence.h"
+#include "arraysequence.h"
 
-ArraySequence::ArraySequence(int capacidadeInicial):quantidade(0),capacidade(10) {
+ArraySequence::ArraySequence():quantidade(0),capacidade(10) {
     elementos = new int[capacidade];
 }
 

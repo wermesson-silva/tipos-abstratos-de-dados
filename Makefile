@@ -7,9 +7,9 @@ all: programa
 programa:
 	$(CXX) $(CXXFLAGS) \
 	main.cpp \
-	sequencia/Sequencia.cpp \
-	conjunto/Set.cpp \
-	array_sequence/ArraySequence.cpp \
+	sequencia/sequencia.cpp \
+	conjunto/arrayset.cpp \
+	array_sequence/arraysequence.cpp \
 	-o programa
 
 run: programa

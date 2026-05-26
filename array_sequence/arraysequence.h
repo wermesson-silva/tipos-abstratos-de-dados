@@ -12,7 +12,7 @@ private:
     void redimensionar();
 
 public:
-    ArraySequence(int capacidadeInicial = 10);
+    ArraySequence();
     ~ArraySequence();
 
     void pushBack(int value);
