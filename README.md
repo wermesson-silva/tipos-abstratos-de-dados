@@ -82,3 +82,31 @@ Implementação de sequência dinâmica utilizando array.
 └── array_sequence
     ├── arraysequence.cpp
     └── arraysequence.h
+```
+
+---
+
+## Como clonar e executar o projeto
+
+### 1. Clonar o repositório
+
+Primeiro, abra o terminal e execute o comando abaixo para baixar o projeto:
+
+```bash
+git clone https://github.com/wermesson-silva/tipos-abstratos-de-dados.git
+```
+
+Após isso abra o projeto e utilizando o make file, limpe os arquivos compilados usando o comando:
+```bash
+make clean
+```
+
+Após limpar, compile o projeto usando o comando:
+```bash
+make
+```
+
+Por fim, para executar o programa utilize o comando:
+```bash
+make run
+```
